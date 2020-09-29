@@ -32,7 +32,7 @@ The following **additional** features are implemented:
 
 - [ ] List anything else that you can get done to improve the app functionality!
 
-## User Stories
+## User Stories Part 2
 
 The following **required** functionality is completed:
 
@@ -75,6 +75,10 @@ Here's a walkthrough of implemented user stories:
 <img src='walkthrough_tweet.gif' width='250' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
+
+I'm not able to show a part 2 walkthrough because of Twitter's rate limit... sorry
+
+<img src='Rate_Limit_Proof.jpg' width='250' alt='Rate Limit Error' />
 
 ## Notes
 
