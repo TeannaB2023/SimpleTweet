@@ -78,7 +78,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 I'm not able to show a part 2 walkthrough because of Twitter's rate limit... sorry
 
-<img src='Rate_Limit_Proof.jpg' width='250' alt='Rate Limit Error' />
+<img src='walkthrough_tweet(2).gif' width='250' alt='Rate Limit Error' />
 
 ## Notes
 
