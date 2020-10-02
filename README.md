@@ -70,19 +70,17 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
+Here are the walkthroughs of implemented user stories:
 
-<img src='walkthrough_tweet.gif' width='250' alt='Video Walkthrough' />
+<img src='walkthrough_tweet.gif' width='250' alt='Part 1' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
-I'm not able to show a part 2 walkthrough because of Twitter's rate limit... sorry
-
-<img src='walkthrough_tweet(2).gif' width='250' alt='Rate Limit Error' />
+<img src='walkthrough_tweet(2).gif' width='250' alt='Part 2' />
 
 ## Notes
 
-The Twitter API permissions process is messy and the out of data instructions didn't help very much.
+The Twitter API permissions process is messy and the out of data instructions didn't help very much. On my side, I wasn't clear on my understanding of Intents and I kept an extra intent in the Timeline Activity. 
 
 ## Open-source libraries used
 
