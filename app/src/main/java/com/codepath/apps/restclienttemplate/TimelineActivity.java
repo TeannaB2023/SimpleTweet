@@ -82,8 +82,6 @@ public class TimelineActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_main, menu);
-        Intent i = new Intent(this, TimelineActivity.class);
-        startActivity(i);
         return true;
     }
 
@@ -112,13 +110,13 @@ public class TimelineActivity extends AppCompatActivity {
         client.getNextPageOfTweets(new JsonHttpResponseHandler() {
             @Override
             public void onSuccess(int statusCode, Headers headers, JSON json) {
-                Log.i(TAG, "onSuccess for loadMoreData! " + json.toString());
+                Log.i(TAG, "onSuccess for loadMoreData! ");
                 JSONArray jsonArray = json.jsonArray;
                 try {
                     List<Tweet> tweets = Tweet.fromJsonArray(jsonArray);
                     adapter.addAll(tweets);
                 } catch (JSONException e) {
-
+                    e.printStackTrace();
                 }
             }
 
@@ -130,6 +128,7 @@ public class TimelineActivity extends AppCompatActivity {
     }
 
     private void populateHomeTimeline() {
+        Log.i(TAG, "PopulateHomeTimeline");
         client.getHomeTimeline(new JsonHttpResponseHandler() {
             @Override
             public void onSuccess(int statusCode, Headers headers, JSON json) {
